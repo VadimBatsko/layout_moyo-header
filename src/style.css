@@ -4,10 +4,12 @@ body {
   box-sizing: border-box;
   padding: 0;
 
-  --blue-color: #00ACDC;
+  --blue-color: #00acdc;
 }
 
 .nav_ul {
+  margin: 0;
+  padding: 0;
   display: flex;
 }
 
@@ -28,7 +30,7 @@ body {
   display: flex;
   align-items: center;
   height: 60px;
-  font-size: 15px;
+  font-size: 12px;
 }
 
 .nav_element:hover {
@@ -41,7 +43,7 @@ body {
 }
 
 .nav_element.is-active::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 0;
@@ -56,5 +58,9 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 50px;
-  background-color: #FFF;
+  background-color: #fff;
+}
+
+.mainpage_header img {
+  display: block;
 }
