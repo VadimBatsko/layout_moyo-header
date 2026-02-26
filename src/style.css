@@ -7,19 +7,19 @@ body {
   --blue-color: #00acdc;
 }
 
-.nav_ul {
+.nav__list {
   margin: 0;
   padding: 0;
   display: flex;
 }
 
-.nav_li {
+.nav__item {
   list-style-type: none;
   display: inline-block;
   margin-right: 20px;
 }
 
-.nav_li:last-child {
+.nav__item:last-child {
   margin-right: 0;
 }
 
